@@ -1,0 +1,12 @@
+# Node modules
+node_modules
+
+# Keystone
+.keystone
+
+# Environmental variables
+.env
+utils
+
+# Ignore .DS_Store files on OS X
+.DS_Store
