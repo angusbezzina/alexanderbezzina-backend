@@ -6,7 +6,6 @@ node_modules
 
 # Environmental variables
 .env
-utils
 
 # Ignore .DS_Store files on OS X
 .DS_Store
