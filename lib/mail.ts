@@ -2,9 +2,8 @@ import { createTransport, getTestMessageUrl } from 'nodemailer';
 import endpoint from "../utils/endpoints";
 
 const transport = createTransport({
-  // TODO: Fix this!
-  // host: endpoint.mailHost,
-  // port: endpoint.mailPort,
+  host: endpoint.mailHost,
+  port: endpoint.mailPort,
   auth: {
     user: endpoint.mailUser,
     pass: endpoint.mailPassword,

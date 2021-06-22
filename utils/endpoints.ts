@@ -12,6 +12,6 @@ export default {
   mailHost: process.env.MAIL_HOST ?? "",
   mailPassword: process.env.MAIL_PASS ?? "",
   mailUser: process.env.MAIL_USER ?? "",
-  mailPort: process.env.MAIL_PORT,
+  mailPort: Number(process.env.MAIL_PORT) ?? 0,
   stripeSecret: process.env.STRIPE_SECRET ?? "",
 };
